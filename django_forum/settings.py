@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-#import django_heroku
+import django_heroku
 #this is from clooudinary website
 import os
 import cloudinary
