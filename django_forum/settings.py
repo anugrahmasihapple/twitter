@@ -125,7 +125,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 # here tell django that we hv created static folder
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
@@ -138,7 +138,7 @@ cloudinary.config(
   cloud_name = "dzsapfsfo",  
   api_key = "444824947255471", 
   api_secret = "4_i8fdf7sjjoY6EG5Y7-YHzS35E",
-  #secure = true
+  secure = true
 )
 
 
